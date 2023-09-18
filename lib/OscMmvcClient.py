@@ -6,7 +6,7 @@ import math
 from pythonosc import udp_client
 from pythonosc import dispatcher
 
-from OscMmvcServer import * 
+from lib.OscMmvcServer import * 
 import threading
 import sys
 

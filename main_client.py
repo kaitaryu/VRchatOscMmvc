@@ -7,8 +7,8 @@ from lib.OscMmvcServer import *
 
 
 if __name__ == "__main__":
-    server = OscMmvcClient("127.0.0.1",9001)
-    client = OscMmvcServer("127.0.0.1",9000,server)
+    server = OscMmvcServer("127.0.0.1",9001)
+    client = OscMmvcClient("127.0.0.1",9000,server)
     server.SetServer()
     client.MoveThreading()
     try:
